@@ -1,14 +1,13 @@
 {
   "version": 2,
-  "model_path": "ttps://raw.githubusercontent.com/crazyaldi/wake_word_scheems/main/scheems.tflite",
+  "model": "https://raw.githubusercontent.com/crazyaldi/wake_word_scheems/main/scheems.tflite",
   "expected_sr": 16000,
-  "model_gain": 1.0,
   "detection_threshold": 0.5,
   "average_window_duration": 1.0,
   "minimum_detection_count": 2,
   "suppression_duration": 1.5,
+  "model_gain": 1.0,
   "max_detection_frequency": 0.0,
   "detection_at_max_detection_frequency": 0.0,
   "label": "scheems"
-
 }
